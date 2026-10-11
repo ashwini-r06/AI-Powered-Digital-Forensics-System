@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+.env
+.pytest_cache/
+# Runtime data and generated files
+data/cybersentry.db
+artifacts/*
+!artifacts/.gitkeep
+reports/*.pdf
+**.db
+.streamlit/secrets.toml
